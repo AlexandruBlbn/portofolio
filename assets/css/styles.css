@@ -1,0 +1,33 @@
+.header {
+  background: #151515 url("../../assets/img/Designer%20(1).jpeg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header .social {
+  bottom: 50px;
+}
+
+.text-container {
+  z-index: 10;
+}
+
+#AboutText {
+  font-size: 30px;
+}
+
+@media (max-width: 512px) {
+  #AboutText {
+    font-size: 22px;
+  }
+}
+
